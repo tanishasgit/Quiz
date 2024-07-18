@@ -1,0 +1,76 @@
+/* style.css */
+
+body {
+    font-family: 'Merriweather Sans', sans-serif;
+    background-color: #000; /* Black background */
+    color: #fff; /* White text */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.quiz-container {
+    background: #000; /* Black background */
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+}
+
+.question {
+    font-size: 1.4em;
+    margin-bottom: 20px;
+    color: #4a7ba6; /* Blue color */
+}
+
+.answers {
+    margin-top: 10px;
+}
+
+.answers button {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    border: none;
+    background: #4a7ba6; /* Blue color */
+    color: #fff; /* White text */
+    cursor: pointer;
+    border-radius: 6px;
+    font-size: 1em;
+    transition: background 0.3s;
+}
+
+.answers button:hover {
+    background: #9799ba; /* Lighter blue color */
+}
+
+.score-container {
+    display: none;
+    text-align: center;
+    color: #fff; /* White text */
+}
+
+.score-container h2 {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+    color: #4a7ba6; /* Blue color */
+}
+
+.score-container button {
+    background: #4a7ba6; /* Blue color */
+    color: #fff; /* White text */
+    border: none;
+    padding: 12px;
+    font-size: 1em;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.score-container button:hover {
+    background: #9799ba; /* Lighter blue color */
+}
