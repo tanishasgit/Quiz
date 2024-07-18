@@ -20,8 +20,8 @@ This project is designed to provide an interactive quiz experience where users c
 
 ## Preview
 
-![Quiz Preview](<img width="1431" alt="preview" src="https://github.com/user-attachments/assets/372744eb-8d61-4396-aabe-676b811f7544">
-)
+![Quiz Preview]<img width="1431" alt="preview" src="https://github.com/user-attachments/assets/372744eb-8d61-4396-aabe-676b811f7544">
+
 
 ## License
 
